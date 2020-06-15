@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169184769-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169184769-1');
+</script>
+
 
     <!-- link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}"> -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -49,6 +59,7 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
+	<p>Still I am a mediocre to the technology so please do send feedback for improvements to slpp95prashanth@yahoo.com</p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
